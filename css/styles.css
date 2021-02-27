@@ -1,58 +1,64 @@
 #title {
-    background-color: #ff4c68;
+  background-color: #ff4c68;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif; 
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-}
-
-.container-fluid { 
-    padding: 3% 15%;
-}
-
-.iphone-img {
-    height: 400px;
-    width: 200px;
-}
-
-.navbar-brand {
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-}
-
-.navbar {
-    padding-bottom: 4.5rem;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 p {
-    color: #8f8f8f;
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.iphone-img {
+  height: 400px;
+  width: 200px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
 
 .icon-feature {
-    color: #efB172;
-    margin-bottom: 8px;
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
 .icon-feature:hover {
-    color: #ff4c68;
-}
-
-.row {
-    text-align: center;
-    margin: 50px;
+  color: #ff4c68;
 }

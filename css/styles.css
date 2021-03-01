@@ -31,12 +31,14 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .iphone-img {
-  height: 400px;
-  width: 200px;
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
 
 .navbar-brand {
@@ -53,6 +55,8 @@ p {
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
